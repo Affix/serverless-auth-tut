@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <h1>Register User</h1>
+      </div>
+      <div id="errors" style="display: none;" class="alert-danger">
+        There was an error registering the user
+      </div>
+      <div id="success" style="display: none;" class="alert-success">
+        <div class="container">
+          <h3>Success</h3>
+          User was successfully created
+        </div>
+      </div>
+      <div id="form">
+        <div class="formElement">
+      	  <label for="email">E-mail</label>
+      	  <input id="email" type="text" />
+        </div>
+
+        <div class="formElement">
+      	  <label for="password">Password</label>
+      	  <input id="password" type="password" />
+        </div>
+
+        <div class="formElement">
+          <input type="submit" value="Register" id="register">
+        </div>
+      </div>
+    </div>
+    <script
+      src="http://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="js/register.js"></script>
+
+  </body>
+</html>
